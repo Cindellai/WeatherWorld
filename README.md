@@ -1,18 +1,9 @@
-# sinatra-template
+# WeatherWorld
+## Description
+WeatherWorld is a simple web application that provides the current weather forecast based on the user's location or a searched city. The app fetches real-time weather data from the OpenWeatherMap API and presents it in a clean, user-friendly interface.
 
-Use this repository to create new Sinatra apps. 
-
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
-
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+## Features
+Fetches current weather information for any city.
+Displays temperature, weather conditions, and other relevant data.
+Responsive design with attractive CSS styling.
+Easy-to-use interface for searching weather information.
