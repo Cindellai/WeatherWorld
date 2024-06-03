@@ -5,6 +5,7 @@ ruby "3.2.1"
 gem "sinatra"
 gem "sinatra-contrib"
 gem "httparty"
+gem 'curb'
 gem "puma", "~> 5.0"
 gem "sinatra-activerecord"
 
